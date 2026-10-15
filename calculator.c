@@ -15,7 +15,7 @@ int main()
     printf("5. Modulus\n");
     printf("6. Exit\n");
     printf("Enter your choice:");
-    scanf("%c",&choice);
+    scanf(" %c",&choice);
     switch (choice)
     {
     case '+': printf("The addition = %d \n", n1 + n2);
